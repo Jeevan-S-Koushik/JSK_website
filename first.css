@@ -1,0 +1,110 @@
+#index{
+    background-color: #1c1c1c;
+}
+/* #start{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+#start:hover{
+    text-decoration:rgba(255, 255, 255, 0.281) underline;
+    font-size: 22px;
+} */
+#color{
+    color: red;
+}
+#iam{
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    line-height: 0px;
+    margin-left: 20px;
+}
+#name{
+    color: white;
+    line-height: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+}
+#center{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+#btn1{
+    margin-left: 800px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 0vh;
+    color: gray;
+    font-size: 22px;
+}
+#btn2{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 0vh;
+    color: gray;
+    font-size: 22px;
+}
+#btn3{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 0vh;
+    color: gray;
+    font-size: 22px;
+}
+#btn4{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 0vh;
+    color: gray;
+    font-size: 22px;
+}
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
+    text-decoration: orange solid overline;
+} 
+#coding{
+    color: orangered;
+    line-height: 18px;
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: large;
+}
+#resume{
+    border: 1px solid orangered;
+    background-color: transparent;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#resume:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#test{
+    display: none;
+}
+/* #developers{
+    border: 3px solid grey;
+} */
+@media screen and (max-width: 900px) {
+  #desktop{
+      display: none;
+  }
+  /* body{
+      background-color: lightblue;
+  } */
+  #test{
+      display: block;
+      /* visibility: visible; */
+      background-color: black;
+      color: red;
+  }
+}
