@@ -32,7 +32,7 @@
     margin-top: 200px;
 }
 #btn1{
-    margin-left: 800px;
+    margin-left: 700px;
     margin-top: 30px;
     background-color: transparent;
     border: 0vh;
@@ -62,6 +62,10 @@
 }
 #btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
     text-decoration: orange solid overline;
+    /* border: 3px solid orangered; */
+    border-radius: 10px;
+    font-size:22px;
+    color: white;
 } 
 #coding{
     color: orangered;
@@ -71,7 +75,7 @@
     font-size: large;
 }
 #resume{
-    border: 1px solid orangered;
+    border: 1px solid white;
     background-color: transparent;
     color: white;
     width: 150px;
@@ -107,4 +111,84 @@
       background-color: black;
       color: red;
   }
+}
+#about{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#tech{
+    color: grey;
+    font-size: 60px;
+    margin-left: 350px;
+}
+#img1{
+    border: 1px thin white;   
+    margin-left: 50px; 
+    /* background-color: rgba(255, 255, 255, 0.445); */
+    width: 100px;
+    height: 100px;
+    line-height: 0px;
+}
+#img1:hover{
+    width: 80px;
+    height: 80px;
+}
+#jee{
+    line-height: 10px;
+    margin-left: 270px;
+    color: rgba(128, 128, 128, 0.562);
+    font-family: monospace;
+    font-size: 16px;
+    margin-top: 70px;
+}
+#project{
+    margin-top: 250px;
+    margin-left: 100px;
+    font-size: 70px;
+}
+#projects{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#whatsapp{
+    margin-top: 50px;
+    margin-left: 80px;
+    color: grey;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#first_pro{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#first_pro:hover{
+    border: 1px solid white;
+
+}
+/* #about_whatsapp{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+
+} */
+#btnj{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+#btnj:hover{
+    background-color: rgba(255, 255, 255, 0.671);
+    color: black;
+    font-weight: bold;
+    border: 2px solid orangered;
+
 }
